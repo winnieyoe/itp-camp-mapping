@@ -71,7 +71,7 @@ Duration: 1.5-2 hours
 5.  Initialize the map in the `script.js` file. The coordinates will be the initial geographic center from which the map draws when it loads, and the number is the initial zoom.
 
 ```
-let mymap = L.map('mapid').setView([40.69, -73.98], 13);
+let mymap = L.map('mapid').setView([40.698130, -73.986990], 13);
 
 ```
 _See more about this step [here](https://leafletjs.com/reference-1.6.0.html#map-factory)_
