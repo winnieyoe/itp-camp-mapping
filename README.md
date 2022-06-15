@@ -19,7 +19,7 @@ By [Winnie Yoe](https://winnieyoe.com), originally co-taught with [Karina Hyland
 
 ## Workshop Schedule
 
-Duration: 1.5 -2 hours
+Duration: 1.5-2 hours
 
 - Introduction to Maps
 - Setting a base web map
