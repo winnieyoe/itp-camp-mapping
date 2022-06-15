@@ -1,14 +1,15 @@
-# 🌏 Intro to Web Mapping (Part 1: Leaflet) 🌍
+# 🌏 Introduction to Web Mapping (with Leaflet) 🌍
 
 ## 😎 Overview
 
-Web mapping workshop for ITP Camp 2020, a 4 week crash course for experimentations and skill sharing in art, media, and technology organized by the Interactive Telecommunications Program (ITP) at New York University.
-In Part 1 of this Introduction to Web Mapping, we will go through the process of setting up a web map by using Javascript and the Leaflet.js library. For the purpose of this workshop we will be building our own simple dataset, then geocoding it to use it in a map.
+Web mapping workshop for ITP Camp 2022, a 4 week crash course for experimentations and skill sharing in art, media, and technology organized by the Interactive Telecommunications Program (ITP) at New York University.
+
+In Introduction to Web Mapping, we will go through the process of setting up a web map by using Javascript and the Leaflet.js library. For the purpose of this workshop we will be building our own simple dataset, then geocoding it to use it in a map.
 The workshop takes place online through Zoom.
 
 ## Authors
 
-Co-taught by [Winnie Yoe](https://winnieyoe.com) and [Karina Hyland](https://karinahy.com/).
+By [Winnie Yoe](https://winnieyoe.com), originally co-taught with [Karina Hyland](https://karinahy.com/).
 
 ## Outcomes & Goals
 
@@ -18,7 +19,7 @@ Co-taught by [Winnie Yoe](https://winnieyoe.com) and [Karina Hyland](https://kar
 
 ## Workshop Schedule
 
-Duration: 2 hours
+Duration: 1.5 -2 hours
 
 - Introduction to Maps
 - Setting a base web map
@@ -29,28 +30,27 @@ Duration: 2 hours
 ### Note to participants
 
 - No coding experience is required
-- If you loved this session or couldn't make it, make sure to come to [Part 2](https://github.com/winnieyoe/web-mapping-workshop)
 
 ---
 
 ### Introduction to Maps (lecture)
 
-[Slides here](https://docs.google.com/presentation/d/1M4Tfj4S7krn2nPhvGre8b2cRHG04BhfbwX0WOc6ng1M/edit?usp=sharing)
+[Slides here](https://docs.google.com/presentation/d/1ctqa3VbbNSVdYnmwMi-aO4nachXR_TYhgYFJeqThcCo/edit?usp=sharing)
 
 ### Let's set up a map
 
-1. Open this [project](https://glitch.com/edit/#!/itp-map-1-a) and click on Remix to start
+1. Open this [project](https://glitch.com/edit/#!/itp-camp-2022-map) and click on Remix to start
 
 2. Include Leaflet CSS and Javascript inside `<head>` in the `index.html` file:
 
 ```
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+   integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
    crossorigin=""/>
 ```   
 ```
-<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+ <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+   integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
    crossorigin=""></script>
 ```
 
