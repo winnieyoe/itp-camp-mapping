@@ -5,7 +5,6 @@
 Web mapping workshop for ITP Camp 2022, a 4 week crash course for experimentations and skill sharing in art, media, and technology organized by the Interactive Telecommunications Program (ITP) at New York University.
 
 In Introduction to Web Mapping, we will go through the process of setting up a web map by using Javascript and the Leaflet.js library. For the purpose of this workshop we will be building our own simple dataset, then geocoding it to use it in a map.
-The workshop takes place online through Zoom.
 
 ## Authors
 
