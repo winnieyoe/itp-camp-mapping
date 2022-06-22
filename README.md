@@ -153,7 +153,7 @@ for (let i = 0; i < mydata.length; i++) {
   
   let myplace = mydata[i];
   
-  L.marker([myplace.Latitude, myplace.Longitude]).bindPopup(popupText).addTo(mymap);
+  L.marker([myplace.Latitude, myplace.Longitude]).addTo(mymap);
   
 }
 ```
